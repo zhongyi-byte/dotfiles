@@ -1,0 +1,16 @@
+export PATH="$PATH:/opt/homebrew/bin/"
+export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin"
+export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$GOPATH/bin"
+
+
+#alias
+alias ll='ls -al'
+alias clp='~/bin/closePort'
+alias cl='~/bin/countLine'
+alias arthas='~/bin/arthas'
+
+source ~/.bashrc
+source ~/.zprofile
+source /etc/profile
+
